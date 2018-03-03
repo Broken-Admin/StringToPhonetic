@@ -1,8 +1,8 @@
 #include <iostream>
 #include <stdio.h>
 #include <string>
-std::string userString;
 std::string outputString;
+int wordAmount;
 
 void phonetic(std::string inputString){
     for(int itterator=0;itterator<inputString.length();itterator++){
