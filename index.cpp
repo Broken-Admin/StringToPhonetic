@@ -10,6 +10,9 @@ int main(){
     }
     for(int itterator=0;itterator<wordAmount;itterator++){
         phonetic(userStrings[itterator]);
+        if(!(itterator+1==wordAmount)){
+            outputString=outputString+"| ";
+        }
     }
     std::cout<<'\n'<<"Input: ";
     for(int itterator=0;itterator<wordAmount;itterator++){
